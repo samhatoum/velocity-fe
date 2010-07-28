@@ -1,0 +1,27 @@
+
+// 2d parms group
+
+0,0,         // transparent (1) or not (0) in day/night mode
+3,           // add to Poi size for screen touch
+1,7,         // to use wide frame and its width
+64,64,64,    // day wide frame color
+64,64,64,    // night wide frame color
+1,5,         // to use semiwide frame and its width
+128,128,128, // day semiwide frame color
+128,128,128, // night semiwide frame color
+1,2,         // to use narrow frame and its width
+200,200,200, // day narrow frame color
+200,200,200, // night narrow frame color
+
+// 3d parms group
+
+3,           // add to Poi size for screen touch
+1,7,         // to use wide frame and its width
+64,64,64,    // day wide frame color
+64,64,64,    // night wide frame color
+1,5,         // to use semiwide frame and its width
+128,128,128, // day semiwide frame color
+128,128,128, // night semiwide frame color
+1,2,         // to use narrow frame and its width
+200,200,200, // day narrow frame color
+200,200,200  // night narrow frame color

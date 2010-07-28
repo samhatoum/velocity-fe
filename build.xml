@@ -1,0 +1,140 @@
+<project name="Velocity" default="deploy" basedir=".">
+
+	<!-- set global properties for this build -->
+	<property name="src" location="src" />
+	<property name="build" location="build" />
+	<property name="bin" location="bin" />
+	<property name="dist" location="dist" />
+	<property name="res" location="res" />
+	<property name="flash" location="skins" />
+	<property name="deploy" location="${dist}/deploy" />
+	<property name="deployBin" location="${deploy}\bin" />
+	<property name="deploySkins" location="${deploy}\skins" />
+	<property name="deployLogs" location="${deploy}\logs" />
+	<property name="main-class" value="com.hatoum.velocity.Velocity" />
+	<property name="logo" location="${res}\velocity.bmp" />
+	<property name="icon" location="${res}\velocity.ico" />
+	<property name="rarText" location="${res}\velocity.txt" />
+	<property name="supportedWindows" value="Windows 2000, Windows XP" />
+	<property name="winrar" value="winrar.exe" />
+	<property name="rarOutput" location="${build}/installerLog.txt" />
+	<property name="windowsExecutableName" value="setup.exe" />
+	<property name="windowsExecutable" location="${dist}\${windowsExecutableName}" />
+	<property name="genericArchiveName" value="velocity.zip" />
+	<property name="genericArchive" location="${dist}\${genericArchiveName}" />
+	<property name="propertiesFiles" value="*.properties" />
+	<property name="swfFiles" value="*.swf" />
+	<property name="binFiles" value="*.bin" />
+	<property name="asFiles" value="*.as" />
+	<property name="pngFiles" value="*.png" />
+	<property name="xmlFiles" value="*.xml" />
+	<property name="jpgFiles" value="*.jpg" />
+	<property name="exeFiles" value="*.exe" />
+	<property name="ftpHost" value="www.digital-car.co.uk" />
+	<property name="ftpUser" value="velocity@digital-car.co.uk" />
+	<property name="ftpPassword" value="junk13" />
+	<property name="ftpFiles" value="${genericArchiveName}" />
+	<property name="mplayerExe" value="mplayer.exe" />
+	<property name="mplayer" value="mplayer" />
+
+	<!-- general classpath -->
+	<path id="classpath">
+		<fileset dir="lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp />
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}" />
+	</target>
+
+	<target name="compile" depends="init" description="compile the source ">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}">
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+
+
+	<target name="deploy" depends="compile" description="copies the generated jar and relevant files">
+		<delete dir="${deploy}" />
+		<mkdir dir="${deploy}" />
+		<mkdir dir="${deployLogs}" />
+		
+		<!-- Put everything in ${build} into the velocity-${DSTAMP}.jar file -->
+		<jar jarfile="${deploy}/${ant.project.name}.jar" basedir="${build}">
+			<zipfileset src="lib/comm.jar" />
+			<zipfileset src="lib/commons-beanutils-core.jar" />
+			<zipfileset src="lib/commons-lang-2.1.jar" />
+			<zipfileset src="lib/commons-logging-1.1.jar" />
+			<zipfileset src="lib/ezmorph-0.8.1.jar" />
+			<zipfileset src="lib/jakarta-oro-2.0.8.jar" />
+			<zipfileset src="lib/xom-1.1.jar" />
+			<zipfileset src="lib/trove.jar" />
+			<zipfileset src="lib/json-lib-1.1-jdk15.jar" />
+
+			<manifest>
+				<attribute name="Main-Class" value="${main-class}" />
+			</manifest>
+		</jar>
+
+		<copy todir="${deploy}">
+			<fileset dir=".">
+				<include name="${propertiesFiles}" />
+			</fileset>
+		</copy>
+		<copy todir="${deploySkins}">
+			<fileset dir="${flash}">
+				<include name="**/*${swfFiles}" />
+				<include name="**/*${binFiles}" />
+				<include name="**/*${asFiles}" />
+				<include name="**/*${pngFiles}" />
+				<include name="**/*${xmlFiles}" />
+				<include name="**/*${jpgFiles}" />
+			</fileset>
+		</copy>
+		<copy todir="${deployBin}">
+			<fileset dir="${bin}" />
+		</copy>
+	</target>
+
+	<target name="windowsInstaller" depends="deploy" description="creates an installer exe using winrar">
+		<delete file="${windowsExecutable}" />
+		<delete file="${deployBin}/mplayer_ppc" />
+		<delete file="${deployBin}/mplayer_intel" />
+		<delete file="${deployBin}/mplayer" />
+		<delete file="${deployBin}/gflashplayer" />
+		<delete dir="${deployBin}/Destinator" />
+		<exec dir="${deploy}" executable="${winrar}" os="${supportedWindows}" failonerror="true">
+			<arg line="a -t -r -k -s -ibck -sfx -iimg${logo} -iicon${icon} -z${rarText} ${windowsExecutable}" />
+		</exec>
+	</target>
+
+	<target name="archive" depends="deploy" description="creates an installer exe using winrar">
+		<delete file="${genericArchive}" />
+		<zip destfile="${genericArchive}" basedir="${deploy}" />
+	</target>
+
+	<target name="uploadArchive" depends="archive" description="uploads the latest installer to an ftp">
+		<ftp action="del" remotedir="/downloads" server="${ftpHost}" userid="${ftpUser}" password="${ftpPassword}">
+			<fileset>
+				<include name="${ftpFiles}" />
+			</fileset>
+		</ftp>
+		<ftp server="${ftpHost}" remotedir="/downloads" userid="${ftpUser}" password="${ftpPassword}" depends="yes">
+			<fileset dir="${dist}">
+				<include name="${ftpFiles}" />
+			</fileset>
+		</ftp>
+	</target>
+
+	<target name="clean" description="clean up">
+		<!-- Delete the created directory trees -->
+		<delete dir="${build}" />
+		<delete dir="${dist}" />
+		<delete dir="${deploy}" />
+	</target>
+</project>

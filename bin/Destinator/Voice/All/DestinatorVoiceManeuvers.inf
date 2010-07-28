@@ -1,0 +1,168 @@
+
+{:Standard Voices Maneuvers:}
+
+LANGUAGE=ENG
+
+
+//
+// All the fields must be placed in one line. The fields will divided by commas.
+//
+// Fields description:
+// 1) ::MC 	The maneuver command is a key word.
+// 2) 		A command is being built from two parts (each part is a key word). The two 
+//		parts will be divided by a ‘*’ sign. The first part will describe the maneuver name
+// 		(TURN_LEFT for example) and the second part will describe the distance
+//		(THIRD_DISTANCE for example).
+// 3)		For future use, (‘0’ will be entered).
+// 3)		For future use, (‘0’ will be entered).
+// 4) to N)	The words from which the sentence is built. Each word (or words) between two
+//		commas must refer to a wav files with the same name which exists in the same 
+//		folder as the information file, (if a file or a command for that matter will not be 
+//		found silent mode will be activated).
+//		The max value of ‘N’ will be ‘13’, (will allow a ten words sentence).
+// N+1)		The maneuver textual description, (will be written between quotation marks -
+//		commas are possible).
+
+// FIRST_DISTANCE - three kilometers / two miles.
+// SECOND_DISTANCE - five hundred yards/meters.
+// THIRD_DISTANCE - two hundred yards/meters.
+// FOURTH_DISTANCE - thirty meters, no distance will be specified.
+
+::MC,TURN_LEFT*FIRST_DISTANCE,0,0,t_l;3*2;UNITS,"In UNITS Turn left"
+::MC,TURN_LEFT*SECOND_DISTANCE,0,0,t_l;500;UNITS,"In five hundred UNITS Turn left"
+::MC,TURN_LEFT*THIRD_DISTANCE,0,0,t_l;200;UNITS,"In two hundred UNITS Turn left"
+::MC,TURN_LEFT*FOURTH_DISTANCE,0,0,t_l,"Turn left"
+
+::MC,TURN_RIGHT*FIRST_DISTANCE,0,0,t_r;3*2;UNITS,"In UNITS Turn right"
+::MC,TURN_RIGHT*SECOND_DISTANCE,0,0,t_r;500;UNITS,"In five hundred UNITS Turn right"
+::MC,TURN_RIGHT*THIRD_DISTANCE,0,0,t_r;200;UNITS,"In two hundred UNITS Turn right"
+::MC,TURN_RIGHT*FOURTH_DISTANCE,0,0,t_r,"Turn right"
+
+::MC,KEEP_LEFT*FIRST_DISTANCE,0,0,k_l;3*2;UNITS,"In UNITS keep to the left"
+::MC,KEEP_LEFT*SECOND_DISTANCE,0,0,k_l;500;UNITS,"In five hundred UNITS keep to the left"
+::MC,KEEP_LEFT*THIRD_DISTANCE,0,0,k_l;200;UNITS,"In two hundred UNITS keep to the left"
+::MC,KEEP_LEFT*FOURTH_DISTANCE,0,0,k_l,"Keep to the left"
+
+::MC,KEEP_RIGHT*FIRST_DISTANCE,0,0,k_r;3*2;UNITS,"In UNITS keep to the right"
+::MC,KEEP_RIGHT*SECOND_DISTANCE,0,0,k_r;500;UNITS,"In five hundred UNITS keep to the right"
+::MC,KEEP_RIGHT*THIRD_DISTANCE,0,0,k_r;200;UNITS,"In two hundred UNITS keep to the right"
+::MC,KEEP_RIGHT*FOURTH_DISTANCE,0,0,k_r,"Keep to the right"
+
+::MC,EXIT_LEFT*FIRST_DISTANCE,0,0,e_l;3*2;UNITS,"In UNITS exit to the left"
+::MC,EXIT_LEFT*SECOND_DISTANCE,0,0,e_l;500;UNITS,"In five hundred UNITS exit to the left"
+::MC,EXIT_LEFT*THIRD_DISTANCE,0,0,e_l;200;UNITS,"In two hundred UNITS exit to the left"
+::MC,EXIT_LEFT*FOURTH_DISTANCE,0,0,e_l,"Exit to the left"
+
+::MC,EXIT_RIGHT*FIRST_DISTANCE,0,0,e_r;3*2;UNITS,"In UNITS exit to the right"
+::MC,EXIT_RIGHT*SECOND_DISTANCE,0,0,e_r;500;UNITS,"In five hundred UNITS exit to the right"
+::MC,EXIT_RIGHT*THIRD_DISTANCE,0,0,e_r;200;UNITS,"In two hundred UNITS exit to the right"
+::MC,EXIT_RIGHT*FOURTH_DISTANCE,0,0,e_r,"Exit to the right"
+
+::MC,U_TURN*FIRST_DISTANCE,0,0,u_t;3*2;UNITS,"In UNITS make a U turn"
+::MC,U_TURN*SECOND_DISTANCE,0,0,u_t;500;UNITS,"In five hundred UNITS make a U turn"
+::MC,U_TURN*THIRD_DISTANCE,0,0,u_t;200;UNITS,"In two hundred UNITS make a U turn"
+::MC,U_TURN*FOURTH_DISTANCE,0,0,u_t,"Make a U turn"
+
+::MC,ROUND_ABOUT*FIRST_DISTANCE,0,0,circle;EXIT_NUMBER;exit;3*2;UNITS,"In UNITS take the EXIT_NUMBER exit in the Roundabout"
+::MC,ROUND_ABOUT*SECOND_DISTANCE,0,0,circle;EXIT_NUMBER;exit;500;UNITS,"In five hundred UNITS take the EXIT_NUMBER exit in the Roundabout"
+::MC,ROUND_ABOUT*THIRD_DISTANCE,0,0,circle;EXIT_NUMBER;exit;200;UNITS,"In two hundred UNITS take the EXIT_NUMBER exit in the Roundabout"
+::MC,ROUND_ABOUT*FOURTH_DISTANCE,0,0,circle;EXIT_NUMBER;exit,"Take the EXIT_NUMBER exit in the Roundabout"
+
+::MC,DESTINATION*FIRST_DISTANCE,0,0,app_destination;3*2;UNITS,"Approaching destination in UNITS"
+::MC,DESTINATION*SECOND_DISTANCE,0,0,app_destination;500;UNITS,"Approaching destination in five hundred UNITS"
+::MC,DESTINATION*THIRD_DISTANCE,0,0,app_destination;200;UNITS,"Approaching destination in two hundred UNITS"
+::MC,DESTINATION*FOURTH_DISTANCE,0,0,destination,"You have arrived at your destination"
+
+
+//
+// All the fields must be placed in one line. The fields will divided by commas.
+//
+// Fields description:
+// 1) ::MW 	The multiple word command is a key word.
+// 2) 		A command is being built from two parts (each part is a key word). The two 
+//		parts will be divided by a ‘*’ sign. The first part will describe the command name
+// 		RED_LIGHT_CAMERA for example) and the second part will describe the distance type
+//		DISTANCE_TYPE_800 for example).
+// 3)		For future use, (‘0’ will be entered).
+// 4)		For future use, (‘0’ will be entered).
+// 5) to N)	The words from which the sentence is built. Each word (or words) between two
+//		commas must refer to a wav files with the same name which exists in the same 
+//		folder as the information file, (if a file or a command for that matter will not be 
+//		found silent mode will be activated).
+//		The max value of ‘N’ will be ‘13’, (will allow a ten words sentence).
+// N+1)		The command textual description, (will be written between quotation marks -
+//		commas are possible).
+
+::MW,POI_ALERT_1*DISTANCE_TYPE_1000,0,0,141;1,"Poi Alert 1"
+::MW,POI_ALERT_1*DISTANCE_TYPE_800,0,0,141;1,"Poi Alert 1"
+::MW,POI_ALERT_1*DISTANCE_TYPE_600,0,0,141;1,"Poi Alert 1"
+::MW,POI_ALERT_1*DISTANCE_TYPE_400,0,0,141;1,"Poi Alert 1"
+::MW,POI_ALERT_1*DISTANCE_TYPE_100,0,0,141;1,"Poi Alert 1"
+
+::MW,POI_ALERT_2*DISTANCE_TYPE_1000,0,0,141;2,"Poi Alert 2"
+::MW,POI_ALERT_2*DISTANCE_TYPE_800,0,0,141;2,"Poi Alert 2"
+::MW,POI_ALERT_2*DISTANCE_TYPE_600,0,0,141;2,"Poi Alert 2"
+::MW,POI_ALERT_2*DISTANCE_TYPE_400,0,0,141;2,"Poi Alert 2"
+::MW,POI_ALERT_2*DISTANCE_TYPE_100,0,0,141;2,"Poi Alert 2"
+
+
+//
+// All the fields must be placed in one line. The fields will divided by commas.
+//
+// Fields description:
+// 1) ::SW	The single word is a key word.
+// 2) 		The single word definition.
+// 3)		For future use, (‘0’ will be entered).
+// 3)		For future use, (‘0’ will be entered).
+// 4) 		The relevant single word. The word must refer to a wav file with the same name which exists
+//		in the same folder as the information file, (if a file or a needed word for that matter will not be 
+//		found silent mode will be activated).
+// 5)		The maneuver textual description, (will be written between quotation marks -
+//
+
+// Spacify:
+// 1) First maneuver followed by second maneuver, (1).
+// 2) Second maneuver followed by first maneuver, (2).
+// No distance will be specified.
+::SW,FOLLOWED_BY,0,0,(1);followed_by,"Then"
+
+// Will be described by the letters combination 'UNITS'.
+::SW,METERS,0,0,meters,"meters"
+::SW,KILOMETERS,0,0,kmeters,"kilometers"
+::SW,YARDS,0,0,yards,"yards"
+::SW,MILES,0,0,miles,"miles"
+
+// TTS FIRST_DISTANCE Translations.
+::SW,THREE_KILOMETERS,0,0,,"three kilometers"
+::SW,TWO_MILES,0,0,,"two miles"
+::SW,TO,0,0,,"to"
+
+// Will be described by the letters combination 'EXIT_NUMBER'.
+::SW,FIRST,0,0,first,"first"
+::SW,SECOND,0,0,second,"second"
+::SW,THIRD,0,0,third,"third"
+::SW,FOURTH,0,0,fourth,"fourth"
+::SW,FIFTH,0,0,fifth,"fifth"
+::SW,SIXTH,0,0,sixth,"sixth"
+::SW,SEVENTH,0,0,seventh,"seventh"
+::SW,EIGHTH,0,0,eighth,"eighth"
+::SW,NINTH,0,0,ninth,"ninth"
+::SW,TENTH,0,0,tenth,"tenth"
+
+::SW,TURN_LEFT,0,0,t_l,"Turn left"
+::SW,TURN_RIGHT,0,0,t_r,"Turn right"
+::SW,KEEP_LEFT,0,0,k_l,"Keep left"
+::SW,KEEP_RIGHT,0,0,k_r,"Keep right"
+::SW,EXIT_LEFT,0,0,e_l,"Exit to the left"
+::SW,EXIT_RIGHT,0,0,e_r,"Exit to the right"
+::SW,U_TURN,0,0,u_t,"Make a U turn"
+::SW,ROUND_ABOUT,0,0,circle,"continue driving around the Round About"
+
+::SW,YOU_ARE_OVER_THE_SPEED_LIMIT,0,0,yaotsl,"You are over the speed limit"
+::SW,ROUTE_RECALCULATION,0,0,yhltcr,"Route recalculation"
+::SW,GPS_SIGNAL_TOO_LOW,0,0,signallow,"GPS signal too low"
+::SW,GPS_NOT_FOUND,0,0,gpsnotfound,"No connection to GPS receiver"
+::SW,START_NAVIGATION,0,0,startnavigation,"Drive carefully"
+::SW,REACHED_DESTINATION,0,0,destination,"You have arrived at your destination"
+::SW,TMC_MESSAGE_RECIEVED,0,0,132,"TMC Alert"
+::SW,FAVORITES_ALERT,0,0,141,"Favorites Alert"

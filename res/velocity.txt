@@ -1,0 +1,19 @@
+
+Path=c:\velocity
+SavePath
+Overwrite=1
+Delete=*
+Title=Velocity 0.6a
+Text
+{
+This will install Velocity 0.6a preview. 
+
+
+You must have already installed the latest Java Runtime Environment from http://java.sun.com
+
+
+}
+License=Velocity 0.4a
+{
+This code is only intended as a preview for the digital-car.co.uk community and it is not permitted for it to be modified, distributed, copied, or used for any other purpose than a preview. If you do not accept these terms, please close this installer now.
+}

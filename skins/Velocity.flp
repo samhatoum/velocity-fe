@@ -1,0 +1,12 @@
+﻿<flash_project name="Velocity" version="1">
+    <project_folder name="com" expanded="true">
+        <project_folder name="hatoum" expanded="true">
+            <project_folder name="velocity" expanded="true">
+                <project_file path="./com/hatoum/velocity/Velocity.as" filetype="as" />
+                <project_file path="./com/hatoum/velocity/JSON.as" filetype="as" />
+            </project_folder>
+        </project_folder>
+    </project_folder>
+    <project_file path="./velocity.fla" filetype="fla" profile="" />
+    <project_file path="./monkey.fla" filetype="fla" profile="" def_file="true" />
+</flash_project>
