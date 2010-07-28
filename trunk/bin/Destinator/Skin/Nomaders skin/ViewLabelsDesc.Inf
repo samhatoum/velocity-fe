@@ -1,0 +1,58 @@
+
+// regular day street labels descriptor (default values)
+
+0,0,0,       // text color
+255,255,255, // text bound color
+64,64,64,    // base color
+255,0,0,     // background color (invisible)
+2,           // text bound width
+1,           // base type (0 - no base, 1 - triangle, 2 - leg
+1100,        // distance limit to show label
+32,800,72,64 // %1,d1,%2,d2: size in percent varies from %1 to %2
+             // when distance to label varies from d1 to d2
+28,128,72,32 // %1,d1,%2,d2: label transparency varies from %1 to %2
+             // when distance to label varies from d1 to d2
+
+// regular night street labels descriptor (default values): see above
+
+255,255,255,
+0,0,255,
+0,0,255,
+255,0,0,
+2,
+1,
+1100,
+32,800,72,64,
+28,128,72,32
+
+1,              // code for US federal icon descriptor
+Federal,        // image file name (PNG checked before BMP)
+12,10,54,48,    // left,top,right,bottom rect for text
+0,0,0,          // text color
+50,             // size on screen in percent
+32,             // icon transparency in percent
+0,              // icon sizeability (0 - false, 1 -true)
+
+2,              // code for US interstate icon
+InterState,
+9,14,53,49,
+255,255,255,
+50,
+30,
+0,
+
+3,              // code for major EU roads
+EuroRoad,
+4,4,59,43,
+255,255,255,
+50,
+30,
+1,
+
+4,              // code for major national roads
+NumberedRoad,
+4,4,59,43,
+255,255,255,
+50,
+30,
+1

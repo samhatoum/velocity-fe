@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.jar" sourcepath="lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/xom-1.1.jar" sourcepath="lib/xom-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/comm.jar"/>
+	<classpathentry kind="lib" path="lib/jakarta-oro-2.0.8.jar" sourcepath="lib/jakarta-oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="lib/json-lib-1.1-jdk15.jar" sourcepath="lib-src/json-lib-1.1-jdk15-sources.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-core-1.7.0.jar" sourcepath="lib/commons-beanutils-core-1.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.3.jar" sourcepath="lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-net-1.4.1.jar" sourcepath="lib/commons-net-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/ezmorph-1.0.2.jar" sourcepath="lib/ezmorph-1.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/jacob_1.13-M2.jar" sourcepath="lib/jacob_1.13-M2.jar"/>
+	<classpathentry kind="lib" path="lib/jid3lib-0.5.4.jar" sourcepath="lib-src/jid3lib-0.5.4-src.zip"/>
+	<classpathentry kind="lib" path="lib/trove-2.0rc1.jar" sourcepath="lib/trove-2.0rc1.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.3.1.jar" sourcepath="lib-src/junit-4.3.1-src.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>

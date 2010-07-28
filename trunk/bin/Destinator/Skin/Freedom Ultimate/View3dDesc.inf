@@ -1,0 +1,105 @@
+
+		// Arrow length before/after maneuver point in meters.
+30,40           // AB_ARROW_LENGTH, CD_ARROW_LENGTH
+
+		// Arrow head left side color.
+255,0,0		// ARROW_END_LEFT_COLOR
+
+		// Arrow head right side color.
+255,0,0		// ARROW_END_RIGHT_COLOR
+
+		// Arrow body left side color.
+255,0,0		// ARROW_BODY_LEFT_COLOR
+
+		// Arrow body right side color.
+255,0,0		// ARROW_BODY_RIGHT_COLOR
+
+		// The destination circle strip boundary width (pixels) / body width (meters) / total radius (meters).
+8,5,24		// DESTGWIDTH, DESTWIDTH, DESTRADIUS
+
+		// The destination circle strip boundary color.
+91,114,0	// DESTGCOLOR
+
+		// The destination circle body color.
+191,239,0	// DESTCOLOR
+
+		// Day background colors
+255,194,156     // VIEWEARTHCOLOR_DT
+255,181,115	// VIEWEARTHCOLOR_DB
+
+		// Day boundaries color of regular roads.
+115,105,95	// VIEWROADSGCOLOR_D
+
+		// Day body color of regular roads.
+255,247,197	// VIEWROADSCOLOR_D
+
+		// Day color of pedestrian roads.
+165,162,165	// VIEWPEDESTRIANCOLOR_D
+
+		// Day boundaries color of car route.
+12,89,131	// VIEWCARROUTEGCOLOR_D
+
+		// Day body color of car route.
+198,224,237	// VIEWCARROUTECOLOR_D
+
+		// Day boundaries color of pedestrian route.
+0,128,0		// VIEWWALKERROUTEGCOLOR_D
+
+		// Day body color of pedestrian route.
+15,46,63	// VIEWWALKERROUTECOLOR_D
+
+		// Night background colors
+8,49,74		// VIEWEARTHCOLOR_NT
+8,90,132       // VIEWEARTHCOLOR_NB
+
+		// Night boundaries color of regular roads.
+101,89,73	// VIEWROADSGCOLOR_N
+
+		// Night body color of regular roads.
+173,156,130	// VIEWROADSCOLOR_N
+
+		// Night color of pedestrian roads.
+110,108,110	// VIEWPEDESTRIANCOLOR_N
+
+		// Night boundaries color of car route.
+0,140,215	// VIEWCARROUTEGCOLOR_N
+
+		// Night body color of car route.
+255,255,255	// VIEWCARROUTECOLOR_N
+
+		// Night boundaries color of pedestrian route.
+14,128,0	// VIEWWALKERROUTEGCOLOR_N
+
+		// Night body color of pedestrian car route.
+122,185,41	// VIEWWALKERROUTECOLOR_N
+
+		// Background and text colors of the message "no roads around...".
+0,0,0		// MESSBGCOLOR
+199,224,238	// MESSTEXTCOLOR
+
+		// Minimum height / maximum height / number of steps between minimum and maximum of the 3D camera.
+20.0,50.0,24.0	// MIN_CAMERA_HEIGHT, MAX_CAMERA_HEIGHT, CAMERA_HEIGHT_RANGE
+
+// Additional parameters to define horizon connected effects
+
+8.0,            // View angle when horizon appears
+25.0,2.0,       // Additional view height and regular view height multyplier
+                // are used to define height in view angle calculation
+100.0,           // Min percent of fog transparency on horizon line
+45,             // Fog region height from horizon line down in pixels
+
+43,77,123,      // Top sky color for day
+212,226,255,    // Bottom sky color for day
+196,255,255,    // Top fog color for day
+196,196,196,    // Bottom fog color for day
+
+8,48,74,        // Top sky color for night
+8,85,123,       // Bottom sky color for night
+0,0,96,         // Top fog color for night
+0,0,96          // Bottom fog color for night
+
+// tmc colors
+144,135,144        // TMCRoadsGColor_d = TMC selected roads boundaries color
+200,100,0          // TMCRoadsColor_d = TMC selected roads inner color
+187,94,0           // TMC selected roads boundaries color
+200,100,0          // TMC selected roads inner color

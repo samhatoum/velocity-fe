@@ -1,0 +1,26 @@
+
+// Map rotator set of parms:
+
+13.0,            // V_1         = velocity to change 2d map scale (see below)
+26.0,            // V_2         = velocity to change 2d map scale (see below)
+2.0,             // delta velocity to avoid noise in scale changes
+3.0,             // if velocity<(this value) we don't rotate map
+0.5,             // filter parameter for velocity
+
+// these values are for 3d view
+
+60.0,80.0,100.0, // 3d h-zont % for velocity: <.>V_1<.>V_2<.>
+8.0,15.0,18.0,  // 3d height % for velocity: <.>V_1<.>V_2<.>
+15.0,20.0,30.0,  // 3d h-zont % near maneuver for velocity: <.>V_1<.>V_2<.>
+15.0,15.5,20.0,  // 3d height % near maneuver for velocity: <.>V_1<.>V_2<.>
+1,               // 1/0 = Use/not use 3d velocity zooming
+1,               // 1/0 = Use/not use 3d maneuver zooming
+	
+// these values are mainly for 2d view
+
+60,120,240,      // 2d scale for velocity: <.>V_1<.>V_2<.>
+40,60,80,        // min 2d scale near maneuver for velocity: <.>V_1<.>V_2<.>
+16,8,3,          // steps to change parameters from current to selected near maneuver
+0.13,            // delta map angle to avoid minor map angle changes (7.5 deg)
+8,               // number of steps to change manually map orientation on 180 degrees
+6000,            // 'autozoom' delay after manual/maneuver changes in scale/angle

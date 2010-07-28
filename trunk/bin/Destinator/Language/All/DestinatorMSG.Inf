@@ -1,0 +1,719 @@
+{:Standard Messages:}
+
+;------------------------- General ----------------------------------------------------
+
+IDS_VERSION="Version"
+IDS_NO="No"
+IDS_YES="Yes"
+IDS_ZERO_PERCENT="0%"
+IDS_INTERNAL_POI_LANGUAGE="D01"
+IDS_INTERFACE_LANGUAGE="EN2"
+IDS_RESTORE_FACTORY_DEFAULTS="Restore Defaults"
+IDS_MAP_REGISTRATION="The selected map is not registered. Would you like to register the map?"
+IDS_MAP_UNREGISTRATED="The selected map is not registered."
+IDS_COMMANDBAR_OPT="Options"
+IDS_COMMANDBAR_TOOLS_FAVORITES="Add to My Favorites"
+IDS_INVALID_NAME="Invalid name.\nPlease enter a different name." 
+IDS_INFO_SHORT="Information"
+IDS_TOLL_ROADS="Toll Roads"
+IDS_STR_AND_STR="and to"
+IDS_S_VISUAL="Skins"
+IDS_NO_DATA="No data found."
+IDS_NO_CARD_CAP="Error"
+IDS_NO_CARD_MES="Storage card has been removed. Application will shut down."
+IDS_POWER_AC="AC Power"
+IDS_POWER_BATTERY="Battery Power" 
+IDS_TEXTABOUT_SHUTDOWN="I agree. Please do not display this warning again."
+
+IDS_USE_TTS="Use Text to Speech"
+IDS_UTILS_CAP10="State"
+IDS_UTILS_CAP7="Country"
+IDS_UTILS_CAP8="Coordinates"
+IDS_UTILS_MSG1="Origin location is too far from a road."
+IDS_UTILS_MSG4="The selected destination is not on the current map. Please select a different map"
+
+IDS_VERBAL_VISUAL="Text"
+IDS_SIGN_VISUAL="Symbols"
+IDS_NO_VISUAL="None"
+IDS_CONFIRM_EXIT="Are you sure you want to quit BRANDNAME?"
+IDS_CONTEXTMENU_RECALCULATE="Recalculate"
+IDS_CURRENT_MAP="CURRENT MAP -"
+
+IDS_FAVORITES_ALERT="Favorites Alert" 
+IDS_ITEM_EMPTY="Location name not entered." 
+IDS_LOWBATTERY_MSG="Low Battery! Please charge the device to prevent data loss."
+IDS_MAPCURSORDLG_CAP3="<also named>"
+IDS_OPTIMIZE_LIMIT="Optimization process supports up to "
+
+IDS_TTS_CONNECT="to "
+
+; ------------------------- Settings ---------------------------------------------------
+
+
+IDS_LANGUAGE_SETTINGS="Language"
+IDS_VISUAL_NOTIFICATIONS_TITLE="Visual"
+
+IDS_S_LANGUAGE="Select Language Text"
+IDS_S_SELVOICE="Select Voice Guidance"
+
+IDS_COMMON_EAST="East"
+IDS_COMMON_KPH="km/h"
+IDS_COMMON_MPH="MPH"
+IDS_COMMON_NE="NE"
+IDS_COMMON_NORTH="North"
+IDS_COMMON_NW="NW"
+IDS_COMMON_SE="SE"
+IDS_COMMON_SOUTH="South"
+IDS_COMMON_SW="SW"
+IDS_COMMON_WEST="West"
+
+IDS_USE_LARGE_MAP_LABELS="Use Larger Labels"
+IDS_KM_MILES="System Units"
+IDS_KM_SETTINGS_TEXT="Kilometers/Hour"
+IDS_MILE_SETTINGS_TEXT="Miles/Hour"
+IDS_HEADINGS_UP="Forward is up"
+IDS_NORTH_UP="North is up"
+IDS_AUTOZOOM="Use Automatic Zoom"
+IDS_MAP_ORIENTATION="Map Orientation"
+
+; ------------------------ Category ----------------------------------------------------
+
+IDS_NEW_CATEGORY="New Category"
+IDS_CATEGORY_EMPTY="Invalid group name. Please enter a different name."
+IDS_DELETE_ITEM="The selected item will be permanently deleted. Continue?"
+
+; ------------------------ Navigation --------------------------------------------------
+
+IDS_SET_AS_ORIGIN="Set as Origin"
+IDS_NOROADSAROUND="Your current position is too far from a road."
+IDS_SHOWROUTE_CAP2="Destination"
+IDS_WALKERROUTE_FAR_FINISHPOINT="Destination is too far from a pedestrian route."
+IDS_WALKERROUTE_FAR_STARTPOINT="Origin location is too far from a pedestrian route."
+IDS_WALKERROUTE_IMPOSSIBLE_FIND="Requested route cannot be calculated in Pedestrian mode."
+IDS_WALKERROUTE_LONG_DISTANCE="Requested route exceeds Pedestrian mode distance limit."
+IDS_WALKERROUTE_LOW_MEMORY="Low memory!\nPlease close other applications and try again."
+IDS_WALKERROUTE_NO_ROUTE="Route calculation error!"
+IDS_CARROUTE_NO_PATH="Origin or destination points cannot be reached by vehicle. Please change origin or destination point."
+
+
+; ------------------------- Directions -------------------------------------------------
+
+IDS_DIRECTIONS_EL="Exit to the Left"
+IDS_DIRECTIONS_END="End of Route"
+IDS_DIRECTIONS_ER="Exit to the Right"
+IDS_DIRECTIONS_KL="Keep Left"
+IDS_DIRECTIONS_KR="Keep Right"
+IDS_DIRECTIONS_R_A="Roundabout"
+IDS_DIRECTIONS_TL="Turn Left"
+IDS_DIRECTIONS_TR="Turn Right"
+IDS_DIRECTIONS_UT="U-Turn"
+IDS_DISTANCE_FORMAT="(for %d%s)"
+
+; ----------------------- units of measures -------------------------------------------------
+
+IDS_MEASURES_MILE="mi"
+IDS_MEASURES_KM="km"
+IDS_MEASURES_METER="m"
+IDS_MEASURES_YARD="yd"
+IDS_MEASURES_FOOT="ft"
+IDS_MEASURES_EMPTY=""
+ 
+; ----------------------- POPUP MENU -------------------------------------------------
+IDS_POPUP_MENU_NAVIGATE="Go There"
+IDS_POPUP_MENU_ADD_FAVORITES="Add To My Favorites"
+IDS_POPUP_MENU_SET_ORIGIN="Set as Origin"
+IDS_POPUP_MENU_INFO="Information"
+
+;message box
+
+IDS_MESSAGE_BOX_ERROR_TITLE="Error"
+IDS_MESSAGE_BOX_WARNING_TITLE="Warning"
+IDS_MESSAGE_BOX_INFO_TITLE="Information"
+
+; ----------------------- Buttons text -------------------------------------------------
+
+IDS_ABOUT="About"
+IDS_BAUD_RATE="Baud Rate"
+IDS_COM_PORT="COM Port"
+IDS_PROTOCOL="Protocol"
+
+MENU_BUTTON_CANCELROUTE="Cancel Route"
+DEFAULT_AVOID_ROARD_CATEGORY="My Roads to Avoid"
+MENU_BUTTON_FIND_GPS="Search GPS"
+MENU_BUTTON_HELP="Help"
+MENU_BUTTON_I_AGREE="Agree"
+MENU_BUTTON_I_DISAGREE="Disagree"
+MENU_BUTTON_MANEUVER_LIST="Turn by Turn"
+MENU_BUTTON_NAVIGATE="Navigate"
+MENU_BUTTON_PLAY="Route Playback"
+MENU_BUTTON_SATELLITES="GPS Signal"
+MENU_BUTTON_SHOWROUTE="Route Overview"
+MENU_BUTTON_SWITCH="Select Map"
+MENU_BUTTON_WAY_POINTS="Stops"
+MENU_BUTTON_DEMO="Demo"
+
+
+; ----------------------- voice -----------------------------------------------------------
+
+IDS_VOICE_LOW_SIGNAL="Unreliable GPS Signal"
+IDS_VOICE_NO_GPS="GPS Not Found"
+IDS_VOICE_ROUTE_RECALC="Route Recalculation"
+IDS_VOICE_START_NAVIGATION="Drive Carefully"
+IDS_VOICE_YAOTSL="Speed Warning"
+IDS_S_VOICE="Voice"
+
+;---------------------- Address Book -----------------------------------------------------
+IDS_ADDRESSBOOK_CAP2="Point"
+IDS_ADDRESSBOOK_MSG1="The selected entry will be permanently deleted. Continue?"
+
+IDS_COMMONMSG03="Exit "
+IDS_COMMONMSG12="Zip Code"
+IDS_COMMONMSG13="Warning"
+IDS_COMMONMSG14="Number"
+IDS_COMMONMSG15="Street"
+IDS_COMMONMSG16="City"
+IDS_COMMONMSG18="Name"
+
+IDS_STREETCITY_MSG2="City information not found."
+IDS_STREETCITY_MSG7="Insufficient information to show street."
+IDS_STREETCITY_MSG1="Street information not found."
+IDS_STREETCRS_MSG4_1="The selected streets do not intersect."
+
+IDS_NUMBER_NO_NUMBERS="House number information is not available for the selected street."
+IDS_NUMBER_WRONG_NUMBER="House number not found."
+IDS_STREET_NO_STREETS="Street name information is not available for the selected city."
+
+IDS_ZIP_WRONG="Zip Code name not found." 
+IDS_CITY_WRONG="City name not found." 
+IDS_STREET_WRONG="Please use the up/down arrows next to the street name to check additional streets. If still not found please retry the street name."
+; --------------------- Switch Map --------------------------------------------------------
+
+IDS_CHOOSEMAPDLG_CAP1="Current Map"
+IDS_CHOOSEMAPDLG_CAP2="The selected map will be permanently deleted. Continue?"
+IDS_CHOOSEMAP_MSG1="Your current map %s is erased or damaged. Replace the current map or select a different one."
+IDS_NOMAPFOUND="Map not found."
+
+;----------------------------- POI Dialog ------------------------------------------------
+
+IDS_DYNPOI_ALERTED="Auto Alert 1;Auto Alert 2"
+IDS_DYNPOI_ALERTED_DISTANCES="<<Off>>;100;500;1000;2000"
+IDS_DYNPOI_DEFAULT="My Favorites"
+IDS_DYNPOI_FIRST_ALERTED_DISTANCE="1st Alert:"
+IDS_DYNPOI_INI_FILE="FAVORITES.INI"
+IDS_DYNPOI_SECOND_ALERTED_DISTANCE="2nd Alert:"
+IDS_DYNPOI_SOUND_WHEN_CLOSER="Sound alert when closer than..."
+IDS_DYNPOI_HIDE_SYM="Hide Symbol on Map"
+IDS_DYNPOI_SHOW_SYM="Show Symbol on Map"
+IDS_DYNPOI_SEP=";"
+
+; --------------------------- Trip Planner ----------------------------------------------
+
+IDS_NEW_TRIP="New Multistop Route"
+IDS_EDIT_TRIP_LABEL="Enter a Multistop Route Name"
+IDS_EDIT_WAYPOINT_DEAFAULT="<Enter a Stop Name>"
+IDS_EDIT_WAYPOINT_ADDRESS="Address:"
+IDS_EDIT_WAYPOINT_ADD_TO="Add to Route:" 
+IDS_NAME_EXIST_TRIP="The Multistop Route name already exists.\nPlease enter a different name."
+
+
+; -------------------------- GPS Dialog -------------------------------------------------
+
+IDS_GPSDLG_CAP1="Lat."
+IDS_GPSDLG_CAP2="Long."
+IDS_GPSDLG_ERR1="GPS Com. Port is Busy. Try to reset the device and check connection settings."
+IDS_GPSDLG_ERR3="GPS antenna not found."
+IDS_GPSDLG_ERR4="Waiting for GPS signal."
+IDS_GPSDLG_MSG1="Playback mode:"
+
+IDS_SETGPS_MSG01="GPS antenna connected."
+IDS_SETGPS_MSG02="GPS antenna not found."
+
+IDS_SETGPS_TITLE_GPSFOUND="GPS Antenna Connected"
+IDS_SETGPS_TITLE_GPSNOTFOUND="GPS Antenna Not Found"
+
+
+; ---------------------------- History ----------------------------------------------------
+
+IDS_HISTORY_MSG_DELALL="All entries will be permanently deleted. Continue?"
+
+
+IDS_UNNAMED_PEDE="Approaching unnamed pedestrian route."
+IDS_UNNAMED_STREET="Unnamed street"
+IDS_UNNAMED_STREET_LEADS="This unnamed street leads to..." 
+
+
+; ---------------------------- Main Menu --------------------------------------------------
+
+MENU_TB_SETTINGS="Settings"
+IDS_MENU_DESTINATE="Destinations"
+IDS_MENU_OPTIONS="Options"
+IDS_MENU_SETTINGS="Settings"
+IDS_MENU_ADDRESS_CITY="City"
+IDS_MENU_ADDRESS_NUMBER="Number"
+IDS_MENU_ADDRESS_STREET="Street"
+IDS_MENU_DESTINATE_ADDRESS="Go To Address"
+IDS_MENU_DESTINATE_CONTACTS="My Contacts"
+IDS_MENU_DESTINATE_FAVORITES="My Favorites"
+IDS_MENU_DESTINATE_PLACES="My Places"
+IDS_MENU_DESTINATE_HISTORY="Recent Locations"
+IDS_MENU_DESTINATE_MPR="Multistop Planner"
+IDS_MENU_DESTINATE_POI="Points of Interest"
+IDS_MENU_DESTINATE_VEHICLE="Vehicle Mode"
+IDS_MENU_DESTINATE_WALKER="Pedestrian Mode" 
+IDS_MENU_SETTINGS_ALERTS="Prompts"
+IDS_MENU_SETTINGS_ALERTS_TITLE="Prompts"
+IDS_MENU_SETTINGS_GENERAL="Units of Measure"
+IDS_MENU_SETTINGS_GPS="Connection Settings"
+IDS_MENU_SETTINGS_LOOKANDFEEL="Look && Feel"
+IDS_MENU_SETTINGS_LOOKANDFEEL_TITLE="Look & Feel"
+IDS_MENU_SETTINGS_MAP="Map Settings"
+IDS_MENU_SETTINGS_MAP_ROUTE="Map/Route Settings"
+IDS_MENU_SETTINGS_ROUTE="Route"
+IDS_MENU_SETTINGS_ROUTE_M="Avoid Roads"
+IDS_MENU_SETTINGS_CONNECTIONS="Connection Settings"
+IDS_MENU_DAY="Day Mode"
+IDS_MENU_NIGHT="Night Mode"
+IDS_MENU_FAVORITES_ALERTS="Set Alert Distances"
+IDS_MENU_2D="2D Mode"
+IDS_MENU_3D="3D Mode"
+IDS_MENU_PLANNER="Free Map Browsing"
+IDS_MENU_NAVIGATION="GPS Navigation"
+IDS_MENU_DEMO_START="Start Demo"
+IDS_MENU_DEMO_STOP="Stop Demo"
+;--------------------------------------------- POI ----------------------------------------------------
+
+IDS_PI_ADDRESS="To Predefined Address"
+IDS_PI_POI="To Nearest POI Category"
+IDS_PI_SETADDRESS="Set Address"
+IDS_PI_SETPOI="Set POI Category"
+IDS_PI_SETTINGS="QuickNav"
+IDS_PI_ERR_CHOSE_POI_MODE="POI Category button should be selected first."
+IDS_PI_ERR_CHOSE_ADDR_MODE="Predefined Address button should be selected first."
+
+IDS_POILOCATION_14="Phone"
+IDS_POILOCATION_17="Full Map"
+IDS_POILOCATION_19="Address"
+
+; ---------------------------------------- Play & Record ---------------------------------------------
+
+IDS_SIMDLG_MSG1="First press <Play>"
+IDS_SIMDLG_MSG3="Recording error. Check Storage Card space."
+IDS_SIMDLG_MSG5="First press <Record>"
+IDS_SIMDLG_MSG6="The selected route recording will be permanently deleted. Continue?"
+
+;------------------------------------------ SMS ------------------------------------------------------
+
+IDS_SMS_COMMENT="Comment"
+IDS_SMS_DATE="Date:"
+IDS_SMS_DEFAULT_COMMENT="Sent by BRANDNAME"
+IDS_SMS_FAIL="Could not send message"
+IDS_SMS_FREE_STYLE="Your number"
+IDS_SMS_INBOX="SMS Inbox"
+IDS_SMS_NUMBER="Mobile #"
+IDS_SMS_SEND_SMS="Send SMS message" 
+IDS_SMS_SUCCESS="SMS Message sent"
+
+
+;--------------------------------- TMC Dialog ------------------------------------------
+IDS_TMC="Traffic Info"
+IDS_TMC_SETTINGS_TITLE="Traffic Info options"
+IDS_TMC_AT="at"
+IDS_TMC_AUTO_SEARCH="Channel Auto-Search"
+IDS_TMC_CONSTRUCTIONS="Construction"
+IDS_TMC_INFORMATION="Information"
+IDS_TMC_RADIUS="Send alerts within a radius of:"
+IDS_TMC_TRAFFIC="Traffic Jams"
+IDS_TMC_WEATHER="Weather"
+IDS_TMC_MSG_ARRIVE="When message arrives:"
+IDS_TMC_AUTO_AVOID="Avoid Automatically"
+IDS_TMC_ASK_ME="Ask Me"
+IDS_TMC_ALERT_INCOMING="Traffic Alert Categories"
+IDS_TMC_ACCIDENTS="Accidents"
+
+IDS_SANDGLASS_MSG="Route calculation may take a few minutes. Please be patient."
+
+;Main screen
+IDS_STATUS_NOGPS="Waiting for GPS signal"
+IDS_STATUS_SPEED="Speed"
+IDS_STATUS_DISTANCE="Distance"
+IDS_STATUS_TIME="Time"
+IDS_STATUS_TIME_FORMAT="HH':'mm':'ss"
+IDS_STATUS_ETA="Arrival"
+IDS_STATUS_ETR="Remaining"
+IDS_STATUS_ALT="Altitude"
+IDS_STATUS_STREET="Current Street"
+
+IDS_COMPASS_ANGLE_0="N"
+IDS_COMPASS_ANGLE_1="NE"
+IDS_COMPASS_ANGLE_2="E"
+IDS_COMPASS_ANGLE_3="SE"
+IDS_COMPASS_ANGLE_4="S"
+IDS_COMPASS_ANGLE_5="SW"
+IDS_COMPASS_ANGLE_6="W"
+IDS_COMPASS_ANGLE_7="NW"
+
+;Menu action
+MENU_ACTION_BUTTON_INFORMATION="Information"
+MENU_ACTION_BUTTON_ADD_FAVORITES="Add to My Favorites"
+MENU_ACTION_BUTTON_ADD_GROUP="Add Group"
+MENU_ACTION_BUTTON_EDIT_GROUP="Edit Group"
+MENU_ACTION_BUTTON_DELETE_GROUP="Delete Group"
+MENU_ACTION_BUTTON_EDIT_FAVORITE_ITEM="Edit Favorite Location"
+MENU_ACTION_BUTTON_DELETE_FAVORITE_ITEM="Delete Favorite Location"
+MENU_ACTION_BUTTON_SHOW_ON_MAP="Show on Map"
+MENU_ACTION_BUTTON_DELETE_SMS="Delete Message"
+
+MENU_ACTION_BUTTON_SET_AS_ORIGIN="Set as Origin"
+MENU_ACTION_BUTTON_DELETE_ITEM="Delete Item"
+MENU_ACTION_BUTTON_ADD_ITEM="Add Road"
+MENU_ACTION_BUTTON_EDIT_ITEM="Edit Road"
+MENU_ACTION_BUTTON_CLEAR_LIST="Clear List"
+MENU_ACTION_BUTTON_SEND_SMS="Send SMS"
+MENU_ACTION_BUTTON_SHOW_MAP="Show on Map"
+MENU_ACTION_BUTTON_SYSTEM_KEYBOARD="Open System KB"
+MENU_ACTION_BUTTON_HIDE_SYSTEM_KEYBOARD="Hide System KB"
+MENU_ACTION_BUTTON_ADD_ITEM="Add Road"
+MENU_ACTION_BUTTON_EDIT_WP="Rename Stop"
+MENU_ACTION_BUTTON_DELETE_WP="Delete Stop"
+MENU_ACTION_BUTTON_ADD_TRIP="Add Multistop Route"
+MENU_ACTION_BUTTON_EDIT_TRIP="Edit Multistop Route"
+MENU_ACTION_BUTTON_DELETE_TRIP="Delete Multistop Route"
+MENU_ACTION_BUTTON_OPTIMIZE_TRIP="Optimize Route"
+MENU_ACTION_BUTTON_SORT_ABC="Sort by ABC"
+MENU_ACTION_BUTTON_SORT_BY_DISTANCE="Sort by Distance"
+MENU_ACTION_BUTTON_ADD_WP="Add Stop"
+MENU_ACTION_BUTTON_DELETE_RECORDING="Delete Recording"
+
+;Menu Search By
+MENU_SEARCH_BY_ADDRESS="City-Street"
+MENU_SEARCH_BY_STREET="Street-City"
+MENU_SEARCH_BY_CROSS_STREET="Cross Streets"
+MENU_SEARCH_BY_ZIP="Zip Code"
+MENU_SEARCH_BY_OTHER_MAPS="In Other Maps"
+
+;Menu Add Waypoint
+MENU_ADD_WP_ADDRESS="From an Address"
+MENU_ADD_WP_POI="From POI"
+MENU_ADD_WP_FAVORITES="From My Favorites"
+MENU_ADD_WP_HISTORY="From Recent Locations"
+
+;Screen buttons
+TOOLBAR_BUTTON_ENTER="Enter"
+TOOLBAR_BUTTON_NEXT="Enter"
+TOOLBAR_BUTTON_BACK="Back"
+TOOLBAR_BUTTON_DONE="Done"
+TOOLBAR_BUTTON_GO="Go"
+TOOLBAR_BUTTON_SHOW="Show"
+TOOLBAR_BUTTON_SEARCH_BY="Mode"
+TOOLBAR_BUTTON_ACTIONS="Actions"
+TOOLBAR_BUTTON_ALERTS="Alerts"
+TOOLBAR_BUTTON_OPTIONS="Options"
+TOOLBAR_BUTTON_AROUND="Near"
+TOOLBAR_BUTTON_ALLOW="Allow"
+TOOLBAR_BUTTON_AVOID="Avoid"
+TOOLBAR_BUTTON_TURN="Turn"
+TOOLBAR_BUTTON_ROUTE="Route"
+TOOLBAR_BUTTON_TURN_PREV="Prior"
+TOOLBAR_BUTTON_TURN_NEXT="Next"
+TOOLBAR_BUTTON_SAVE="Save"
+TOOLBAR_BUTTON_PLAY="Play"
+TOOLBAR_BUTTON_STOP="Stop"
+TOOLBAR_BUTTON_RECORD="Record"
+TOOLBAR_BUTTON_SETTINGS="Set"
+TOOLBAR_BUTTON_GPS_ON="GPS On"
+TOOLBAR_BUTTON_GPS_OFF="GPS Off"
+TOOLBAR_BUTTON_GPS_RESET="GPS Reset"
+TOOLBAR_BUTTON_QUICKEST="Faster"
+TOOLBAR_BUTTON_SHORTEST="Shorter"
+TOOLBAR_BUTTON_SWITCH="Select"
+TOOLBAR_BUTTON_DELETE="Delete"
+TOOLBAR_BUTTON_REFRESH="Refresh"
+TOOLBAR_BUTTON_MOVE_WP_UP="Up"
+TOOLBAR_BUTTON_MOVE_WP_DOWN="Down"
+TOOLBAR_BUTTON_SEND="Send"
+TOOLBAR_BUTTON_HELP="Help"
+TOOLBAR_BUTTON_INFO="Info."
+TOOLBAR_BUTTON_ACTIVATE="Activate"
+
+TOOLBAR_BUTTON_ENTER="Enter"
+
+;Screen titles
+IDS_SCREEN_ADDRESS_TITLE="<<<  Please Enter CITY  >>>"
+IDS_SCREEN_POI_TITLE="Select a Point" 
+IDS_SCREEN_FAVORITES_TITLE="Select a Favorites Group"
+IDS_SCREEN_TRIP_PLANNER_TITLE="Select or Add Multistop Route"
+IDS_SCREEN_HISTORY_TITLE="Select Recent Location"
+IDS_SCREEN_INFORMATION_TITLE="Information"
+IDS_SCREEN_SMSINBOX_TITLE="Select SMS to View"
+IDS_SCREEN_SMSSEND_MESSAGE_TITLE="SMS Message"
+IDS_SCREEN_SMSSEND_TITLE="Type Contact Name"
+IDS_SCREEN_AVOID_ROADS_TITLE="Select or Add Avoid Group"
+IDS_SCREEN_RECORD_TITLE="Route Playback"
+IDS_SCREEN_MENU_ACTION="Actions"
+IDS_SCREEN_GPS_STATUS_TITLE="GPS Information"
+IDS_SCREEN_MANEUVER_TITLE="Turn-by-Turn"
+IDS_SCREEN_SWITCH_MAP_TITLE="Select Map"
+IDS_SCREEN_RECORD_AND_PLAY="Route Playback"
+IDS_SCREEN_RECORD_AND_PLAY_ACTION="Route Playback Actions"
+IDS_SCREEN_ACTIVATION_TITLE1="Activation 1 of 3"
+IDS_SCREEN_ACTIVATION_TITLE2="Activation 2 of 3"
+IDS_SCREEN_ACTIVATION_TITLE3="Activation 3 of 3"
+IDS_SCREEN_ACTIVATION_TITLE4="Destinator Activations"
+IDS_SCREEN_ACTIVATION_TITLE5="Activation Help"
+
+
+;GPS Status dialog tips
+IDS_SCREEN_GPS_STATUS_LONG="Longitude:"
+IDS_SCREEN_GPS_STATUS_LAT="Latitude:"
+IDS_SCREEN_GPS_STATUS_SPEED="Speed:"
+IDS_SCREEN_GPS_STATUS_ALT="Altitude:"
+IDS_SCREEN_GPS_STATUS_SAT="Number of Satellites:"
+
+;Settings screens' titles
+IDS_SCREEN_GENERAL_SETTINGS_TITLE="Units of Measure"
+IDS_SCREEN_LANGUAGE_SETTINGS_TITLE="Language Settings"
+IDS_SCREEN_MAP_SETTINGS_TITLE="Map Settings"
+IDS_SCREEN_HOME_SETTINGS_TITLE="QuickNav Settings"
+IDS_SCREEN_MAP_ROUTE_SETTINGS_TITLE="Map/Route Settings"
+
+;Address tips
+IDS_SCREEN_ADDRESS_SELECT_STREET="<<<  Please Enter STREET without N, S, E,  or W  >>>"
+IDS_STREET_NAMES_RULE="Do not type N, S, E, or W for street names.\r\ni.e For W Mulholland Drive. type Mulholland."
+IDS_SCREEN_ADDRESS_SELECT_SECOND_STREET="<<<  Please Enter CROSS STREET  >>>""
+IDS_SCREEN_ADDRESS_SELECT_HOUSE="<<<  Please Enter Address NUMBER  >>>"
+IDS_SCREEN_ADDRESS_SELECT_ZIP="<<<  Please Enter ZIP CODE  >>>"
+
+;Address Center Locations
+IDS_SCREEN_ADDRESS_CITY_CENTER="%s --> City Center"
+IDS_SCREEN_ADDRESS_ZIP_CENTER="%s --> Zip Code Midpoint"
+IDS_SCREEN_ADDRESS_STREET_CENTER="%s --> Street Midpoint"
+
+
+;Message box
+MESSAGE_BOX_BUTTON_OK="OK"
+MESSAGE_BOX_BUTTON_CANCEL="Cancel"
+MESSAGE_BOX_BUTTON_YES="Yes"
+MESSAGE_BOX_BUTTON_NO="No"
+
+;map point presentation. for %s we use COORDINATE_NORTH, COORDINATE_SOUTH, .. variables
+IDS_COORDINATE_FORMAT="Point: %.4f %s, %.4f %s"
+IDS_COORDINATE_NORTH="N"
+IDS_COORDINATE_SOUTH="S"
+IDS_COORDINATE_EAST="E"
+IDS_COORDINATE_WEST="W"
+
+; Avoid roads
+IDS_AVOID_ROADS_1="Toll roads cannot be displayed. Click the Avoid or Allow button to include or exclude all toll roads on your routes."
+IDS_AVOID_ROADS_2="Address:"
+IDS_AVOID_ROADS_3="Add to Group:"
+IDS_AVOID_ROADS_4="<Type Avoid Roads Group Name>"
+IDS_AVOID_ROADS_5="The Toll Roads group cannot be deleted."
+IDS_AVOID_ROADS_6="The Toll Roads group cannot be edited."
+IDS_AVOID_ROADS_7="The name already exists. Please enter a different name."
+IDS_AVOID_ROADS_8="Road Name"
+
+; Activation screen
+IDS_ACTIVATION_1="Please enter the License Key, found inside the CD jacket."
+IDS_ACTIVATION_2="To receive an Activation Key:\n1. From DestinatorTechnologies.com,\n\tregister or log into Community.\n2. Follow the instructions provided by\n\the wizard.\n3. You will be prompted to enter the License\n\tKey and Device ID, which are displayed\n\tbelow."
+IDS_ACTIVATION_3="License"
+IDS_ACTIVATION_4="Device No."
+IDS_ACTIVATION_5="Enter Activation Key:"
+IDS_ACTIVATION_6="Your Licenses:"
+IDS_ACTIVATION_7="Activation Help Text"
+IDS_ACTIVATION_ERROR="Invalid license or activation key. Please try again."
+IDS_ACTIVATION_LICENSE_ERROR="Invalid license, Please try again."
+IDS_ACTIVATION_KEY_ERROR="Invalid activation key, Please try again."
+
+; Search Around Buttons
+IDS_SCREEN_SEARCH_AROUND="Search Near"
+
+MENU_SEARCH_AROUND_CURRENT_LOCATION="Current Location"
+MENU_SEARCH_AROUND_DESTINATION="Destination"
+MENU_SEARCH_AROUND_SHOW_SYMBOL="Show Symbol on Map"
+MENU_SEARCH_AROUND_HIDE_SYMBOL="Hide Symbol on Map"
+MENU_SEARCH_AROUND_OTHER_ADDRESS="Other Address"
+
+;Spin Caption
+IDS_SEARCH_RADIUS="Radius"
+
+;POI
+
+IDS_FULL_CATEGORY="All %s Locations" 
+IDS_SELECT_CATEGORY="<<<  POI CATEGORY  >>>"
+IDS_SELECT_SUBCATEGORY="<<<  SUBCATEGORY  >>>"
+IDS_SELECT_ITEM="<<<  LOCATION  >>>"
+
+IDS_EDITFAVORITES_COMMENTS="Comments:"
+IDS_EDITFAVORITES_ADD_TO="Add to Group:"
+IDS_EDITFAVORITES_CHOOSE_IMAGE="Select Favorite's Group Symbol"
+IDS_EDITFAVORITES_NAME="Name:"
+
+IDS_MENU_BUTTON_MAP="Map"
+IDS_MENU_BUTTON_EXIT_DESTINATOR="Quit"
+IDS_MENU_BUTTON_NEXT="More"
+
+;Favorites
+IDS_SCREEN_ADD_FAVORITES_CATEGORY_TITLE="Add To Favorites"
+IDS_SCREEN_FAVORITES_NAME_EXISTS="The name already exists. Please enter a different name."
+IDS_SCREEN_FAVORITES_GROUP_NAME="<Type Group Name>"
+
+IDS_SCREEN_CONTACTS_TITLE="<Type Contact Name>"
+IDS_SCREEN_CONTACTS_ERROR1="Failed to load CLSID"
+IDS_SCREEN_CONTACTS_ERROR2="The Contacts connection failed."
+IDS_SCREEN_CONTACTS_ERROR3="The Contacts login failed."
+IDS_SCREEN_CONTACTS_ERROR4="The selected address does not match the current map."
+IDS_SCREEN_CONTACTS_ERROR5="There are no contact entries on this device."
+IDS_SCREEN_CONTACTS_TYPE0="Empty Record"
+IDS_SCREEN_CONTACTS_TYPE1="Home Address:"
+IDS_SCREEN_CONTACTS_TYPE2="Work Address:"
+IDS_SCREEN_CONTACTS_TYPE3="Other Address:" 
+
+IDS_SCREEN_PLAY_SPEED="Play Speed"
+IDS_SCREEN_PLAY_SPEED_INIT="100%"
+IDS_SCREEN_PLAY_RATE_1_0="1.0"
+IDS_SCREEN_PLAY_RATE_1_5="1.5"
+IDS_SCREEN_PLAY_BUTTON_RATE_2_0="2.0"
+IDS_SCREEN_PLAY_BUTTON_RATE_2_5="2.5"
+
+//Show route screen
+IDS_SCREEN_SHOW_ROUTE_DISTANCE="Distance"
+IDS_SCREEN_SHOW_ROUTE_TIME="Time"
+IDS_SCREEN_ROUTE_SETTINGS_TITLE="Route"
+IDS_SCREEN_ROUTE_SETTINGS_UT_USAGE_ON="U Turn enabled" 
+
+// tmc
+TOOLBAR_BUTTON_TMC_SEARCH_DOWN=""
+TOOLBAR_BUTTON_TMC_STEP_DOWN=""
+TOOLBAR_BUTTON_TMC_STEP_UP=""
+TOOLBAR_BUTTON_TMC_SEARCH_UP=""
+
+MENU_ACTION_BUTTON_AUTO_TMC_SEARCH="Channel Auto-Search"
+MENU_ACTION_BUTTON_DISABLE_AUTO_TMC_SEARCH="Disable Auto-Search"
+
+IDS_ZIP_WRONG="Zip code not found." 
+IDS_CITY_WRONG="City name not found." 
+IDS_STREET_WRONG="Please use the up/down arrows next to the street name to check additional streets. If still not found please retry the street name." 
+
+;Edit contacts screen
+IDS_EDIT_CONTACTS_ADDRESS="Street: "
+IDS_EDIT_CONTACTS_CITY="City: "
+IDS_EDIT_CONTACTS_STATE="State: "
+IDS_EDIT_CONTACTS_ZIP="Zip: "
+IDS_EDIT_CONTACTS_COUNTRY="Country: "
+
+IDS_SCREEN_HELP_TITLE="Help"
+IDS_SCREEN_AVOID_ROADS_TITLE="Avoid Roads"
+
+//activation
+IDS_ACTIVATION_ERROR="Invalid license or activation key. Please try again."
+IDS_ACTIVATION_LICENSE_ERROR="Invalid license. Please try again."
+IDS_ACTIVATION_KEY_ERROR="Invalid activation key. Please try again."
+
+//Map marker message box
+IDS_MARK_POINT_SAVED="Location Saved"
+IDS_POPUP_MENU_MARK_POINT="Mark Point"
+IDS_DO_NOT_ASK_ME_AGAIN="Do not display this message again."
+IDS_ADDRESS_SPECIAL_ROOL="No special characters are required.\r\nÄ=A, È=E, Ñ=N \r\nFor MÜNCHEN, type MUNCHEN."
+IDS_TUTORIAL_QUESTION="Would You Like to start the Destinator tutorial?"
+IDS_TUTORIAL="Tutorial"
+
+//New strings for the main menu
+IDS_MENU_ROUTEMANAGER="Route Manager"
+IDS_MENU_MAPMANAGER="Map Manager"
+IDS_MENU_ROUTEMANAGER_TITLE="Route Manager"
+IDS_MENU_MAPMANAGER_TITLE="Map Manager"
+
+IDS_MENU_EXTRAS="Extras"
+IDS_MENU_PROGRAMS="Programs"
+IDS_SMS_INBOX="SMS"
+MENU_BUTTON_SHOWROUTE="Route\nSummary"
+MENU_BUTTON_MANEUVER_LIST="Turn by Turn"
+
+//Menu Tutorial
+IDS_INTRO="Introduction"
+IDS_MENU_TUTORIAL="Tutorial"
+IDS_SET_ADDRESS="Set Address"
+IDS_PERSONALIZE="Personalise"
+IDS_POI="Points of Interest"
+IDS_MY_DESTINATION="My Destinations"
+
+IDS_MILE_FEET_SETTINGS_TEXT="Miles, 10th of a Mile (US)"
+IDS_MILE_YARD_SETTINGS_TEXT="Miles, Yards (UK)"
+
+IDS_SCREEN_ADDRESS_STATE_TITLE="<<< Select State >>>"
+IDS_SCREEN_ADDRESS_COUNTRY_TITLE="<<< Select Country >>>"
+MENU_ACTION_BUTTON_SELECT_STATE="In other country/state"
+IDS_NO_COUNTRIES="No countries are available for navigation"
+
+IDS_SD_LOCKED="Storage card is locked. To run the Navigation application, unlock the storage card."
+
+IDC_COUNTRYNAME_AUSTRIA="Austria"
+IDC_COUNTRYNAME_ANDORRA="Andorra"
+IDC_COUNTRYNAME_AUSTRALIA="Australia"
+IDC_COUNTRYNAME_BAHRAIN="Bahrain"
+IDC_COUNTRYNAME_BELARUS="Belarus"
+IDC_COUNTRYNAME_BELGIUM="Belgium"
+IDC_COUNTRYNAME_BRAZIL="Brazil"
+IDC_COUNTRYNAME_BULGARIA="Bulgaria"
+IDC_COUNTRYNAME_CANADA="Canada"
+IDC_COUNTRYNAME_CHINA="China"
+IDC_COUNTRYNAME_CROATIA="Croatia"
+IDC_COUNTRYNAME_CZECH_REPUBLIC="Czech Republic"
+IDC_COUNTRYNAME_DENMARK="Denmark"
+IDC_COUNTRYNAME_ESTONIA="Estonia"
+IDC_COUNTRYNAME_FINLAND="Finland"
+IDC_COUNTRYNAME_FRANCE="France"
+IDC_COUNTRYNAME_GERMANY="Germany"
+IDC_COUNTRYNAME_GREECE="Greece"
+IDC_COUNTRYNAME_VATICAN="Holy See (Vatican City)"
+IDC_COUNTRYNAME_HUNGARY="Hungary"
+IDC_COUNTRYNAME_INDIA="India"
+IDC_COUNTRYNAME_IRELAND="Ireland"
+IDC_COUNTRYNAME_ISRAEL="Israel"
+IDC_COUNTRYNAME_ITALY="Italy"
+IDC_COUNTRYNAME_KUWAIT="Kuwait"
+IDC_COUNTRYNAME_LATVIA="Latvia"
+IDC_COUNTRYNAME_LIECHTENSTEIN="Liechtenstein"
+IDC_COUNTRYNAME_LITHUANIA="Lithuania"
+IDC_COUNTRYNAME_LUXEMBOURG="Luxembourg"
+IDC_COUNTRYNAME_MALAYSIA="Malaysia"
+IDC_COUNTRYNAME_MEXICO="Mexico"
+IDC_COUNTRYNAME_MOLDOVA="Moldova"
+IDC_COUNTRYNAME_MONACO="Monaco"
+IDC_COUNTRYNAME_NETHERLANDS="Netherlands"
+IDC_COUNTRYNAME_NORWAY="Norway"
+IDC_COUNTRYNAME_OMAN="Oman"
+IDC_COUNTRYNAME_POLAND="Poland"
+IDC_COUNTRYNAME_PORTUGAL="Portugal"
+IDC_COUNTRYNAME_QATAR="Qatar"
+IDC_COUNTRYNAME_ROMANIA="Romania"
+IDC_COUNTRYNAME_RUSSIA="Russia"
+IDC_COUNTRYNAME_SAN_MARINO="San Marino"
+IDC_COUNTRYNAME_SAUDI_ARABIA="Saudi Arabia"
+IDC_COUNTRYNAME_SINGAPORE="Singapore"
+IDC_COUNTRYNAME_SLOVAKIA="Slovakia"
+IDC_COUNTRYNAME_SLOVENIA="Slovenia"
+IDC_COUNTRYNAME_SOUTH_AFRICA="South Africa"
+IDC_COUNTRYNAME_SPAIN="Spain"
+IDC_COUNTRYNAME_SWEDEN="Sweden"
+IDC_COUNTRYNAME_SWITZERLAND="Switzerland"
+IDC_COUNTRYNAME_TURKEY="Turkey"
+IDC_COUNTRYNAME_UKRAINE="Ukraine"
+IDC_COUNTRYNAME_UAE="United Arab Emirates"
+IDC_COUNTRYNAME_UNITED_KINGDOM="United Kingdom"
+IDC_COUNTRYNAME_USA="USA"
+
+IDS_STATE_WRONG="Region not found."
+IDS_ADDRESS_SPECIAL_RULE_USA="Please do not prefix street names with direction abbreviations (N, S, W or E). Instead of 'N Main Street', enter 'Main Street'"
+IDS_MAPFILE_CORRUPTED="Map file is corrupt!"
+IDS_KEYBOARD_COLLAPSE="If the result you are looking for is not displayed, tap the keyboard button and enter additional letters to display more options."
+
+IDS_EULA_TITLE="EULA"
+IDS_EULA_AGREE="I Agree"
+IDS_GPS="GPS"
+IDS_TMC_ON="ON"
+IDS_TMC_OFF="OFF"
+
+
+MENU_ACTION_BUTTON_SENDLOCATION="Send Location"
+IDS_POPUP_MENU_SEND_LOCATION="Send Location"

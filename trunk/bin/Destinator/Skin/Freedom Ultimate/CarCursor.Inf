@@ -1,0 +1,76 @@
+
+// File CarCursor.inf contains  24 file names and
+// scaling parameters for 2d/3d view mode.
+// Each image file should be  in the folder where
+// CarCursor.inf  file is placed. Each image file
+// is  used  to  represent  origin/car/pedestrian
+// position for certain conditions (see  comments
+// below).
+// If program  can't  find image  file,  standard
+// representation is used for current conditions.
+// The same  files  may  be  used  for  different
+// conditions. Token <no name> has to be in place
+// of  file  name  if standard  representation is
+// used.
+// Any image has to be  no more then 96 pixels of
+// height or width.
+// Origin position is image center.
+// Image transparency color is pixel (0,0) color.
+// Car images for navigation with good GPS signal
+// are rotated in driving direction.
+// Non-transparent pixels of such  images have to
+// be  inside  radius=96 from  image  center  (in
+// pixels).
+// Two last lines contain parameters for scaling.
+// In 2d mode scaling is started from  max  %  of
+// original image for  some minimal map scale  up
+// to min % of original  image  for  some maximum
+// map scale. In 3d mode scaling depends  in  the
+// same  manner  from camera  height.
+// Scaling has the same set of parameters for all
+// images for 2d mode (3d mode respectively).
+
+// Map browsing mode
+
+Free.png  	  // 2d, dark,   car
+Free.png          // 3d, dark,   car
+Free.png      	  // 2d, bright, car
+Free.png          // 3d, bright, car
+Free.png          // 2d, dark,   walker
+Free.png          // 3d, dark,   walker
+Free.png          // 2d, bright, walker
+Free.png          // 3d, bright, walker
+
+// Navigation, bad GPS
+
+2D_Dark_Bad_GPS.png           // 2d, dark,   car
+3D_Dark_Bad_GPS.png           // 3d, dark,   car
+2D_Bright_Bad_GPS.png         // 2d, bright, car
+3D_Bright_Bad_GPS.png         // 3d, bright, car
+2D_Bright_Walker_Bad_GPS.png  // 2d, dark,   walker
+3D_Dark_Walker_Bad_GPS.png    // 3d, dark,   walker
+2D_Bright_Walker_Bad_GPS.png  // 2d, bright, walker
+3D_Dark_Walker_Bad_GPS.png    // 3d, bright, walker
+
+// Navigation, good GPS
+
+2D_Dark.png           // 2d, dark,   car
+3D_Dark.png           // 3d, dark,   car
+2D_Bright.png         // 2d, bright, car
+3D_Bright.png         // 3d, bright, car
+2D_Dark_Walker.png    // 2d, dark,   walker
+3D_Dark_Walker.png    // 3d, dark,   walker
+2D_Bright_Walker.png  // 2d, bright, walker
+3D_Bright_Walker.png  // 3d, bright, walker
+
+// 2d Scaling
+
+80,40,60,1600
+// from <%> if map scale less then <min Scale>
+// up to <%> if map scale more then <max Scale>
+
+// 3d Scaling
+
+80,40,50,300
+// from <%> if camera height less then <min camera height>
+// up to <%> if camera height more then <max camera height>
